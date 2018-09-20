@@ -174,8 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13dba601d62b24d469aa9846f19bd790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPosition: {fileID: 0}
-  tileColor: 2
+  currentCell: {fileID: 0}
+  TileColor: 3
   audioSource: {fileID: 82199999459003082}
 --- !u!212 &212282400777489118
 SpriteRenderer:

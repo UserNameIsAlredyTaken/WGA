@@ -2,10 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp.dll
+-out:Temp/Unity.TextMeshPro.dll
 -nostdlib
 -optimize
--r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/Managed/UnityEngine.ARModule.dll"
@@ -159,8 +158,49 @@
 -define:ENABLE_MONO
 -define:NET_2_0_SUBSET
 -define:UNITY_PRO_LICENSE
-Assets/Scripts/ColorOfPosition.cs
-Assets/Scripts/FieldManager.cs
-Assets/Scripts/Position.cs
-Assets/Scripts/TileControl.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/FastAction.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/MaterialReferenceManager.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/PackageResourceImporterWindow.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextContainer.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextMeshPro.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TextMeshProUGUI.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Asset.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ColorGradient.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Compatibility.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_CoroutineTween.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_DefaultControls.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Dropdown.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_FontAsset.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_InputField.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_InputValidator.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_LineInfo.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ListPool.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_MaterialManager.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_MeshInfo.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ObjectPool.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_ScrollbarEventHandler.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SelectionCaret.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Settings.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Sprite.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAnimator.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAsset.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SpriteAssetImportFormats.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Style.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_StyleSheet.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SubMesh.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_SubMeshUI.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_Text.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextElement.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextInfo.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_TextUtilities.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_UpdateManager.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_UpdateRegistery.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMP_XmlTagStack.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_EventManager.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_ExtensionMethods.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_FontUtilities.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_MeshUtilities.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_Private.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_ShaderUtilities.cs
+C:/Users/danil/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@1.2.4/Scripts/Runtime/TMPro_UGUI_Private.cs
 -lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity"

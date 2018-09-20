@@ -5,25 +5,25 @@ using UnityEngine;
 
 public class TileControl : MonoBehaviour
 {
-	public Position currentPosition;
-	public ColorOfPosition tileColor;
+	public Cell currentCell;
+	public TileColor TileColor;
 	public AudioSource audioSource;
 
-	public void SetTilePosition(Position newPosition, bool playSound)
+	public void SetTilePosition(Cell newCell, bool playSound)
 	{
-		if (tileColor == newPosition.desiredColor && tileColor != currentPosition.desiredColor)
+		if (TileColor == newCell.DesiredTileColor && TileColor != currentCell.DesiredTileColor)//The tile was not on it's appropriate place, but now it is 
 		{
 			FieldManager.Instance.WinCheck(1);
 		}
-		else if(tileColor == currentPosition.desiredColor && tileColor != newPosition.desiredColor)
+		else if(TileColor == currentCell.DesiredTileColor && TileColor != newCell.DesiredTileColor)//The tile was on it's appropriate place, but now it is not 
 		{
 			FieldManager.Instance.WinCheck(-1);
 		}
-		
-		currentPosition.currentColor = ColorOfPosition.EMPTY;
-		currentPosition = newPosition;
-		currentPosition.currentColor = tileColor;
-		transform.position = new Vector3(newPosition.transform.position.x, newPosition.transform.position.y, -0.1f);//Tile should always be higher then position to overlap it's collider
+
+		currentCell.currentTile = null;
+		currentCell = newCell;
+		currentCell.currentTile = this;
+		transform.position = new Vector3(newCell.transform.position.x, newCell.transform.position.y, -0.1f);//Tile should always be higher then position to overlap it's collider
 		if(playSound) audioSource.Play();
 	}
 
